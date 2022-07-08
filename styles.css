@@ -1,0 +1,21 @@
+#main {
+background-color: #EEEEEE;
+}
+
+#image
+{
+  max-width: 40%;
+  height: auto;
+  display:block;
+  margin: 0 auto;
+}
+.text{
+  text-align: center;
+}
+.text-center
+{
+  text-align: justify;
+  margin-left: 30%;
+  margin-right: 30%;
+  
+}
