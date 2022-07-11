@@ -1,21 +1,32 @@
 #main {
-background-color: #EEEEEE;
+  background-color: #EEEEEE;
 }
 
-#image
-{
+#image {
   max-width: 40%;
   height: auto;
-  display:block;
+  display: block;
   margin: 0 auto;
 }
-.text{
+
+.text {
   text-align: center;
 }
-.text-center
-{
+
+.text-center {
   text-align: justify;
-  margin-left: 30%;
-  margin-right: 30%;
-  
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) #tribute-link {
+  font-size: 1rem;
+}
+
+# tribute-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 1% 0 3% 0;
 }
